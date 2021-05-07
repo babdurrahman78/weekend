@@ -1,4 +1,6 @@
-.app {
+.app{
+    margin: 0px auto;
     max-width: 1366px;
     min-width: 375px;
+    box-sizing: border-box;
 }
