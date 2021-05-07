@@ -1,6 +1,9 @@
 .greeting {
+    max-width: 958px;
+    margin: auto;
     padding: 17px 0px;
     height: 67px;
+
 }
 
 img {
