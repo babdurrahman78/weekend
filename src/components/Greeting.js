@@ -1,7 +1,7 @@
 const Greeting = () => {
     return ( 
-        <div>
-            Hello world
+        <div className='greeting'>
+            <img src="" alt=""/>
         </div>
      );
 }
