@@ -1,0 +1,66 @@
+.home {
+    background-image: url('../assets/bg-1.png');
+    background-position: center;
+    height: 600px;
+    padding: 0 23px 0 24px;
+    background-color: #eebece
+
+    ;
+}
+
+.home-content{
+    margin: auto;
+    padding-top: max(67px, 6.15%);
+    max-width:721px;
+    color: #ffffff
+}
+
+.home-title,
+.home-title-desc {
+    text-align: center;
+}
+
+.home-title{
+    font-weight: 900;
+    line-height: 51px;
+    font-size: max(52px, 4.5388vw);
+    margin-bottom: 20px;
+}
+
+.home-title-desc{
+    font-size: max(16px, 1.537338vw);
+    font-style: italic;
+    font-weight: 600;
+}
+
+.home-astro{
+    display: block;
+    margin: 67px auto 0;
+}
+
+.home-button{
+    position: absolute;
+    border: none;
+    top: 78%;
+    left: 50%;
+    margin-left: -115px;
+    display: block;
+    width: 231px;
+    height: 58px;
+    border-radius: 29px;
+    box-shadow: 0 20px 30px 0 rgba(249, 131, 171, 0.5);
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 653px){
+    .home-button{
+        top: 71%;
+    }
+}
+
+@media only screen and (min-width: 1176px){
+    .home-button{
+        top: 73%;
+    }
+}
